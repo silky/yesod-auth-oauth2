@@ -3,6 +3,5 @@ flags:
     network-uri: true
 packages:
 - '.'
-resolver: lts-3.5
-extra-deps:
-- load-env-0.1.1
+resolver: lts-6.10
+extra-deps: []

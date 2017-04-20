@@ -1,5 +1,5 @@
 name:            yesod-auth-oauth2
-version:         0.2.2
+version:         0.2.4
 license:         BSD3
 license-file:    LICENSE
 author:          Tom Streller
@@ -26,22 +26,22 @@ library
     else
         build-depends: network < 2.6
 
-    build-depends:   base                    >= 4.5       && < 5
-                   , bytestring              >= 0.9.1.4
-                   , http-client             >= 0.4.0     && < 0.5
-                   , http-conduit            >= 2.0       && < 3.0
-                   , http-types              >= 0.8       && < 0.10
-                   , aeson                   >= 0.6       && < 0.12
-                   , yesod-core              >= 1.2       && < 1.5
-                   , authenticate            >= 1.3.2.7   && < 1.4
+    build-depends:   base
+                   , bytestring
+                   , http-client
+                   , http-conduit
+                   , http-types
+                   , aeson
+                   , yesod-core
+                   , authenticate
                    , random
-                   , yesod-auth              >= 1.3       && < 1.5
-                   , text                    >= 0.7       && < 2.0
-                   , yesod-form              >= 1.3       && < 1.5
-                   , transformers            >= 0.2.2     && < 0.6
-                   , hoauth2                 >= 0.4.7     && < 0.6
-                   , lifted-base             >= 0.2       && < 0.4
-                   , vector                  >= 0.10      && < 0.12
+                   , yesod-auth
+                   , text
+                   , yesod-form
+                   , transformers
+                   , hoauth2
+                   , lifted-base
+                   , vector
 
     exposed-modules: Yesod.Auth.OAuth2
                      Yesod.Auth.OAuth2.Github
